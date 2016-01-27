@@ -18,8 +18,8 @@ var gh = (function() {
   var tokenFetcher = (function() {
     // Replace clientId and clientSecret with values obtained by you for your
     // application https://github.com/settings/applications.
-    var clientId = 'ad57ed7e5d0b71e7e6a7';
-    var clientSecret = '7c03c30b4f2fe03c5d0849ad06cb9fed3340980c';
+    var clientId = '62f06a03ac923cd23efd';
+    var clientSecret = '13792efb9ac9f121ef691637cb0933c3cb45e9b0';
     var redirectUri = chrome.identity.getRedirectURL('provider_cb');
     var redirectRe = new RegExp(redirectUri + '[#\?](.*)');
 
