@@ -20,6 +20,12 @@
     "background": {
       "page": "background.html",
       "persisitent": true
+    },
+     "urls": [
+      "http://mysubdomain.example.com/"
+    ],
+    "launch": {
+      "web_url": "http://mysubdomain.example.com/"
     }
   }
 
