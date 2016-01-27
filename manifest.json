@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Jekyller",
-  "short_name": "Jekyller",
+  "name": "RJekyller",
+  "short_name": "RJekyller",
   "description": "To Support Quick Jekyller Editor and Publisher",
   "version": "0.5.7",
   "minimum_chrome_version": "33",
