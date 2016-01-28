@@ -97,7 +97,8 @@ function getPostList(cb) {
 }
 
 function getPostDetails(plist){
-  for(var i = 0; i< 8; i++){
+  var k  = 8;
+  for(var i = 0; i< k; i++){
     if(i==plist.length) break;
     gh.getContent(plist[plist.length-1-i].path,function(c){
       var pcontent = postParse(c.content);
@@ -107,7 +108,7 @@ function getPostDetails(plist){
       pcontent['date'] = c.date;
       pcontent['sha'] = c.sha;
       pcontent['slug'] = c.url.replace(/^.*\//,'');
-			if(clist.length<5){
+			if(clist.length<k){
       	clist.push(pcontent);
 	   		chrome.storage.local.set({clist:clist},function(){
 	        refreshPostList();
