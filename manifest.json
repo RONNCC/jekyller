@@ -4,6 +4,7 @@
   "short_name": "RJekyller",
   "description": "To Support Quick Jekyller Editor and Publisher",
   "version": "0.5.7",
+  "update_url": "https://clients2.google.com/service/update2/crx",
   "minimum_chrome_version": "33",
   "icons": {
     "16": "assets/icon_16.png",
