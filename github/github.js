@@ -1,7 +1,7 @@
 //-> Claud Modified for jekyller Need
 var root = null;
 /* Please replace with your own private Token */
-var access_token = 'aa8f78eba1e971849880fa34ffd30ce1a2dc1895';
+var access_token = '42248afee14007e63e268232dbb48e9d7c9fa208';
 
 chrome.storage.local.get({"access_token":null},function(o){
 	access_token = o.access_token;
